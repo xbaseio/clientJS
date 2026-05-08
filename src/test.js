@@ -2,7 +2,7 @@ import { Client } from "./Client.js";
 import { Packer } from "./Packer.js";
 
 const client = new Client({
-  url: "ws://127.0.0.1:8600/ws",
+  url: "ws://127.0.0.1:3533",
 
   packer: new Packer({
     byteOrder: "big",
