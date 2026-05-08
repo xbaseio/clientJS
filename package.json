@@ -1,0 +1,25 @@
+{
+  "name": "clientjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbaseio/clientJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/xbaseio/clientJS/issues"
+  },
+  "homepage": "https://github.com/xbaseio/clientJS#readme",
+  "dependencies": {
+    "ws": "^8.20.0"
+  }
+}
