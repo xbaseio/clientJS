@@ -16,7 +16,7 @@ const client = new Client({
   heartbeat: 10000,
 
   // 默认 NodeID
-  nodeID: 1,
+  gameID: 1,
 
   // 如果服务端心跳是普通消息，填心跳 messageID
   // 如果 Packer 里有 packHeartbeat，可以不填
